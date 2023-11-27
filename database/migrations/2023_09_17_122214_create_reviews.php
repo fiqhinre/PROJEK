@@ -11,13 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('reservations', function (Blueprint $table) {
+        Schema::create('reviews', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->dateTime('TGL_RESEVE');
-            $table->string('STATUS');
-            $table->dateTime('NOTIFICATION_DATE');
-            $table->string('NOTIFICATION_MESSAGES');
+            $table->string('COMMENTS');
+            $table->string('RATING');
+            $table->date('REVIEW_DATE');
         });
     }
 
@@ -26,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('reservation');
+        Schema::dropIfExists('reviews');
     }
 };
