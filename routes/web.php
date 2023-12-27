@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\kategorihewanController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,6 +45,24 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/create', function () {
+    return view('kategorihewan.create');
+});
+
+Route::get('/index', function () {
+    return view('kategorihewan.index');
+});
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('/kategorihewan',kategorihewanController::class);
+Route::get('/kategorihewan', [kategorihewanController::class, 'index'])->name('kategorihewan.index');
+Route::get('/kategorihewan/create', [kategorihewanController::class, 'create'])->name('kategorihewan.create');
+Route::post('/kategorihewan', [kategorihewanController::class, 'store'])->name('kategorihewan.store');
+Route::get('/kategorihewan/{id}/edit', [ProductController::class, 'edit'])->name('kategorihewan.edit');
+Route::put('/kategorihewan/{id}', [ProductController::class, 'update'])->name('kategorihewan.update');
+Route::delete('/kategorihewan/{id}', [ProductController::class, 'destroy'])->name('kategorihewan.destroy');

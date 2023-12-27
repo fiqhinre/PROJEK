@@ -17,7 +17,8 @@ return new class extends Migration
             $table->string('NAMA_SERVICE');
             $table->string('DESKRIPSI');
             $table->string('KATEGORI_LAYANAN');
-            $table->string('KATEGORI_HEWAN');
+            $table->unsignedBigInteger('id_kategorihewan');
+            $table->foreign('id_kategorihewan')->references('id_kategorihewan')->on('kategorihewan')->onDelete('cascade');
             $table->boolean('PICK_UP');
             $table->float('HARGA');
             $table->dateTime('waktu_mulai');

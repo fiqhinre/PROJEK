@@ -10,6 +10,7 @@
             <div class="d-flex flex-column text-center mb-5">
                 <h4 class="text-secondary mb-3">Our Services</h4>
                 <h1 class="display-4 m-0"><span class="text-primary">Premium</span> Pet Services</h1>
+                <a class="btn btn-success mt-5" href="">Tambah Service</a>
             </div>
             <div class="row pb-3">
                 <div class="col-md-6 col-lg-4 mb-4">
