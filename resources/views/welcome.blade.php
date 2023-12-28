@@ -322,34 +322,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-light my-5 p-0 py-5">
-        <div class="container p-0 py-5">
-            <div class="d-flex flex-column text-center mb-5">
-                <h4 class="text-secondary mb-3">Review</h4>
-                <h1 class="display-4 m-0">Apa kata <span class="text-primary">Customer?</span></h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="bg-white mx-3 p-4">
-                    <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
-                        <img class="img-fluid" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;" alt="">
-                        <div class="ml-3">
-                            <h5>Mr. Budi</h5>
-                        </div>
-                    </div>
-                    <p class="m-0">Sebagai orang yang tinggal sendiri, Pet sitter sangat membantu saya untuk menjaga anabul tercinta. Jadi saya tak perlu khawatir siapa yang akan menjaga anabul saya saat dinas.</p>
-                </div>
-                <div class="bg-white mx-3 p-4">
-                    <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
-                        <img class="img-fluid" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;" alt="">
-                        <div class="ml-3">
-                            <h5>Mr. Santoso</h5>
-                        </div>
-                    </div>
-                    <p class="m-0">Saya tak sempat membawa anabul saya pergi ke petshop untuk grooming, jadi saya butuh tenaga groomer untuk datang ke rumah saya. dan disini saya dapt menemukannya</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Testimonial End -->
 
 
