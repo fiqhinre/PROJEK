@@ -9,4 +9,9 @@ class forms extends Model
 {
     use HasFactory;
     protected $table = 'formsController';
+    protected $fillable = [
+        'nama',
+        'no_telp',
+        'email'
+    ];
 }

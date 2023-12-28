@@ -12,7 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('forms', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_pendaftar');
+            $table->string('nama_pendaftar');
             $table->timestamps();
         });
     }
