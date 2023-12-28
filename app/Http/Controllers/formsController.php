@@ -84,7 +84,7 @@ class formsController extends Controller
         formsController::destroy($id);
 
         // Redirect atau response lainnya setelah penghapusan
-        return redirect()->route('admin.index')->with('success', 'Data pendaftaran berhasil dihapus.');
+        return redirect()->route('admin.table')->with('success', 'Data pendaftaran berhasil dihapus.');
     }
 
     
