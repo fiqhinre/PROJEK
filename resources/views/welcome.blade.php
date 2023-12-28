@@ -12,7 +12,7 @@
                             <h3 class="text-white mb-3 d-none d-sm-block">Best Pet Services</h3>
                             <h1 class="display-3 text-white mb-3">Keep Your Pet Happy</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">Kenyamanan hewan peliharaan anda adalah prioritas kami.</h5>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                             <h3 class="text-white mb-3 d-none d-sm-block">Best Pet Services</h3>
                             <h1 class="display-3 text-white mb-3">Pet Spa & Grooming</h1>
                             <h5 class="text-white mb-3 d-none d-sm-block">anabul bersih, sehat dan bahagia</h5>
-                            <a href="" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Learn More</a>
+
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>Harga Terjangkau</h5></li>
                     <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>Terpercaya</h5></li>
                 </ul>
-                <a href="about" class="btn btn-lg btn-primary mt-3 px-4">Learn More</a>
+
             </div>
             <div class="col-lg-5">
                 <div class="row px-3">
@@ -88,7 +88,7 @@
                         <h3 class="flaticon-house display-3 font-weight-normal text-secondary mb-3"></h3>
                         <h3 class="mb-3">Pet Day Care</h3>
                         <p class="mb-4">PetcareHub menyediakan penitipan hewan peliharaan dengan fasilitas dan jasa terpercaya.</p>
-                        <a class="btn btn-secondary btn-sm" href="">Read More</a>
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
@@ -96,7 +96,7 @@
                         <h3 class="flaticon-food display-3 font-weight-normal text-secondary mb-3"></h3>
                         <h3 class="mb-3">Pet Sitter</h3>
                         <p class="mb-4">Hewan anda tidak suka menginap ditempat lain? Tak perlu khawatir, petugas kami siap menemani.</p>
-                        <a class="btn btn-secondary btn-sm" href="">Read More</a>
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
@@ -104,7 +104,7 @@
                         <h3 class="flaticon-grooming display-3 font-weight-normal text-secondary mb-3"></h3>
                         <h3 class="mb-3">Pet Grooming</h3>
                         <p class="mb-4">Perawatan dengan jasa profesional serta produk yang berkualitas bagi anabul tersayang.</p>
-                        <a class="btn btn-secondary btn-sm" href="">Read More</a>
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
@@ -112,7 +112,7 @@
                         <h3 class="flaticon-cat display-3 font-weight-normal text-secondary mb-3"></h3>
                         <h3 class="mb-3">Pet Training</h3>
                         <p class="mb-4">Ingin anabul anda terlatih agar dapat diajak bermain tricks? Pilih trainer terpercaya anda disini.</p>
-                        <a class="btn btn-secondary btn-sm" href="">Read More</a>
+
                     </div>
                 </div>
             </div>
@@ -371,7 +371,7 @@
                             <small class="mr-2"><i class="fa fa-comments text-muted"></i> 15</small>
                         </div>
                         <p>steril kucing anda demi kesehatan kucing.</p>
-                        <a class="font-weight-bold" href="">Read More</a>
+
                     </div>
                 </div>
             </div>
@@ -386,7 +386,7 @@
                             <small class="mr-2"><i class="fa fa-comments text-muted"></i> 15</small>
                         </div>
                         <p>Tips and trick melatih anabul anda.</p>
-                        <a class="font-weight-bold" href="">Read More</a>
+   
                     </div>
                 </div>
             </div>
@@ -401,7 +401,7 @@
                             <small class="mr-2"><i class="fa fa-comments text-muted"></i> 15</small>
                         </div>
                         <p>steril kucing anda demi kesehatan kucing.</p>
-                        <a class="font-weight-bold" href="">Read More</a>
+
                     </div>
                 </div>
             </div>

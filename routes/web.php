@@ -53,7 +53,9 @@ Route::get('/index', function () {
     return view('kategorihewan.index');
 });
 
-
+Route::get('/index1', function () {
+    return view('admin.index1');
+});
 
 
 Auth::routes();
